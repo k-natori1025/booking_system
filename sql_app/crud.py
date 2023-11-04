@@ -1,4 +1,4 @@
-from sqlalchemy import Session
+from sqlalchemy.orm import Session
 from . import models, schemas
 
 # ユーザー一覧を取得
